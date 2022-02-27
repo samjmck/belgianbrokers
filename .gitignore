@@ -1,0 +1,7 @@
+/public/build/**/*
+node_modules
+dist
+.idea
+.DS_Store
+degiro-kernselectie-go
+!degiro-core-selection-go/

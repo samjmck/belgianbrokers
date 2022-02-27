@@ -1,0 +1,12 @@
+name = "fx-worker"
+type = "javascript"
+account_id = "c020ce55a7892125b33a01786c9a7016"
+workers_dev = true
+routes = ["fx-worker.samjmck.workers.dev/*"]
+
+kv_namespaces = [
+    { binding = "bbroker", id = "" }
+]
+
+[build]
+command = "tsc"
